@@ -44,7 +44,7 @@ $order = [];
 $status = 'all';
 
 // $field will be used to in an if statement to organize an array
-$field = '';
+$field = 'first';
 
 // If the first if statment and the == $status in the foreach loop was not added,the browser would show who is married on the screen, everyone else would not be displayed on the screen
 if ($status == 'all') {
@@ -101,8 +101,8 @@ echo '<td>';
 echo '</td>';
 echo '</tr>';
 
-echo '<pre>';
-print_r($order[$id]);
-echo '</pre>';
+//echo '<pre>';
+//print_r(]);
+//echo '</pre>';
 
  ?>
