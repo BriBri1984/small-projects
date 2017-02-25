@@ -40,10 +40,10 @@ $names[]=[
 //Need to create an empty array to use in the foreach loop
 $order = [];
 
-// Need to create a variable to tell which $name to display and which ones not to, if $status is 'married' Brian and Ashley would display on the screen. If it was false Samir and Jason would be displayed. If $status is 'all' everyone with show up
+// Need to create a variable to tell which $name to display and which ones not to, if $status is 'married' Brian and Ashley will be display on the screen. If it is false Samir and Jason will be displayed. If $status is 'all' everyone will show up
 $status = 'all';
 
-// $field will be used to in an if statement to organize an array
+// $field will be used in an if statement to organize an array
 $field = '';
 
 // If the first if statment and the == $status in the foreach loop was not added,the browser would show who is married on the screen, everyone else would not be displayed on the screen
